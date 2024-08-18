@@ -72,7 +72,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Live Docs - Real-Time Document Collaboration Platform",
+      title: "Live Docs - Real Time Document Collaboration Platform",
       des: "Live Docs is a powerful Google Docs clone, enabling real-time collaboration, editing, and sharing of documents with ease.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -83,7 +83,7 @@ export const navItems = [
       title: "Streamhub - Online Video Streaming App",
       des: "StreamHub is a dynamic video streaming platform that offers seamless streaming, personalized content, and a user-friendly experience",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["../next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/Developer-RONNIE/stream-hub",
     },
     {
