@@ -73,14 +73,7 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <a
-      href="https://github.com/Developer-RONNIE"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-black dark:text-white inline-block"
-    >
-      <FaGithub className="text-xl" />
-    </a>
+        
       </motion.div>
     </AnimatePresence>
   );
