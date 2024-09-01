@@ -110,24 +110,28 @@ export const navItems = [
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Akash",
       title: "CEO of Sherlock Studio",
+      img: "/t1.png",
     },
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Rahul",
       title: "CTO of Sherlock Studio",
+      img: "/t2.png",
     },
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Elizabeth",
       title: "E-commerce store Owner",
+      img: "/t3.png",
     },
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
       name: "Bibek",
       title: "Director of ShimerLuxe",
+      img: "/t4.png",
     },
   ];
   
