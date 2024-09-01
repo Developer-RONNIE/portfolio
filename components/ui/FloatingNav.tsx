@@ -73,7 +73,6 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        
       </motion.div>
     </AnimatePresence>
   );

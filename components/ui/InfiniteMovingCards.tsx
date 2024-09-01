@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img?: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -105,9 +106,15 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
-                  <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
-                  </div>
+                  {item.img && (
+                    <div className="me-3">
+                      <img 
+                      src={item.img} 
+                      alt={item.name} 
+                      style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover' }} 
+                      />
+                    </div>
+                  )}
                   <div className="flex flex-col gap-1">
                     <span className=" text-xl leading-[1.6] text-white font-bold">
                     {item.name}
