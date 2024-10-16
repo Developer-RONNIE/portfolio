@@ -7,7 +7,7 @@ const Client = () => {
     <div className= "py-20" id="testimonials">
         <h1 className='heading text-center text-4xl font-bold'>
             Kind words from
-            <span className="text-purple"> recent projects</span>
+            <span className="text-purple"> partners </span>
         </h1>
         <div className="flex flex-col items-center gap-x-24 gap-y-8 mt-10">
                 <InfiniteMovingCards 
