@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Ensuring Open, Effective communication",
+      title: "Open, Effective communication",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -107,31 +107,38 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Akash",
-      title: "CEO of Sherlock Studio",
-      img: "/t1.png",
+        "Alapan made the whole process feel effortless. From the start, our collaboration was enjoyable, and the way he handled everything, from the smooth negotiations to delivering the project on time. My ShimmerLuxe jewelry site turned out just as I imagined, clean and elegant. I’m already excited to work with him again.",
+      name: "Bibek",
+      title: "Director of ShimerLuxe",
+      img: "/t4.png",
     },
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Rahul",
-      title: "CTO of Sherlock Studio",
-      img: "/t2.png",
+      name: "Adam",
+      title: "Music Beats Creator",
+      img: "/t4.png",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Alapan did a fantastic job building my 3D e-commerce site. The website looks amazing, and the CMS he created makes managing everything so simple. I also love the sales graphs and the built-in calculator for the admin dashboard—they’re really helpful. Overall, I’m very happy with the outcome. Couldn't be happier with his work!",
       name: "Elizabeth",
       title: "E-commerce store Owner",
       img: "/t3.png",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Bibek",
-      title: "Director of ShimerLuxe",
-      img: "/t4.png",
+        "Working with such a young talent on our poker game and other projects was fun. His expertise and problem-solving were key to our success, and his enthusiasm energized the team. Alapan consistently delivered exceptional work. I highly recommend him and wish him the best of luck in his future ventures and adventures.",
+      name: "Rahul",
+      title: "CTO, Sherlock Studio",
+      img: "/t2.png",
+    },
+    {
+      quote:
+        "Alapan excelled as both a backend developer and technical team lead at Sherlock Games. His sharp market awareness & insightful contributions at board meetings helped shape our strategy. A team player who consistently goes above and beyond. I’m confident in his bright future and wish him success in all his ventures.",
+      name: "Akash",
+      title: "CEO, Sherlock Studio",
+      img: "/t1.png",
     },
   ];
   
@@ -193,7 +200,7 @@ export const navItems = [
     {
       id: 4,
       title: "Lead Backend Developer",
-      desc: "Maintained production-grade code and resolved user-facing feature issues using Next.js.",
+      desc: "Maintained production-grade code and resolved user-facing feature issues.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
