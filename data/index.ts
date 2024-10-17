@@ -210,13 +210,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Developer-RONNIE",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/ronnie002_",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/alapan-banerjee/",
     },
   ];
