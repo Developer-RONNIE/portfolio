@@ -8,12 +8,12 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Open, Effective communication",
+      title: "I prioritize client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
-      titleClassName: "justify-end text-red-700 ",
-      img: "/rbk.svg",
+      titleClassName: "justify-end",
+      img: "/intro.gif",
       spareImg: "",
     },
     {
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building Google Maps Data Scraper Extension",
+      title: "Currently building scalable Instgarm auto responder",
       description: "For Business Owners",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Live Docs",
-      des: "Modern Google Docs clone, enabling real-time collaboration, editing, and sharing of documents with ease.",
-      img: "/prj-livedocs.svg",
+      title: "CloudVault",
+      des: "Modern fullstack Storage Mangement Platform, enabling real-time collaboration, editing, and sharing of files with ease.",
+      img: "/prj-cloudvault.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/Developer-RONNIE/live_docs",
+      link: "https://github.com/Developer-RONNIE/cloudvault",
     },
     {
       id: 2,
-      title: "Streamhub",
-      des: "A dynamic video streaming platform that offers seamless streaming, personalized content, and a user-friendly experience",
-      img: "/prj-streamhub.png",
+      title: "EduScore",
+      des: "An enterprise-grade, full-stack Learning Management Application using modern web technologies and AWS services.",
+      img: "/prj-eduscore.png",
       iconLists: ["../next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/Developer-RONNIE/stream-hub",
+      link: "https://github.com/Developer-RONNIE/lmsPortal",
     },
     {
       id: 3,
       title: "Easy Scrape",
-      des: "Powerful extension designed for business owners and analysts to effortlessly extract and analyze data from Google Maps",
+      des: "Simple yet Powerful web extension designed for business owners and analysts to effortlessly extract and analyze data from Google Maps",
       img: "/prj-gmaps.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/tail.svg", "/ts.svg"],
       link: "https://github.com/Developer-RONNIE/google-maps-easy-scrape",
     },
     {
       id: 4,
-      title: "Careplus ",
-      des: "Simplified booking doctor appointments, offering an easy-to-use platform for managing your healthcare needs effortlessly",
-      img: "/prj-careplus.svg ",
+      title: "3D animated Website ",
+      des: "A frontend based luxury-inspired website featuring elegant scroll-triggered animations and geometric transitions for a premium visual experience.",
+      img: "/prj-animated.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Developer-RONNIE/careplus",
+      link: "https://github.com/Developer-RONNIE/beeown-animated-website",
     },
   ];
   
@@ -114,10 +114,10 @@ export const navItems = [
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Alapan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. His enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Alapan is the ideal partner.",
       name: "Adam",
       title: "Music Beats Creator",
-      img: "/t4.png",
+      img: "/t5.png",
     },
     {
       quote:
@@ -185,23 +185,23 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Jr. Mobile App Dev - Sherlock Games",
+      title: "Backend Engineer SDE - Sherlock Games",
       desc: "Worked under CTO to convert the web-based poker game for Android platform using React Native libraries",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance Web Dev Projects",
       desc: "Helped multiple satisfied clients build their customized e-commerce stores and admin dashboards.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
       title: "Lead Backend Developer",
       desc: "Maintained production-grade code and resolved user-facing feature issues.",
-      className: "md:col-span-2",
+      className: "md:col-span-2", 
       thumbnail: "/exp4.svg",
     },
   ];
